@@ -1,0 +1,65 @@
+ 8738  docker build -t imgtestdckr
+ 8739  docker build -t imgtestdckr .
+ 8740  docker run -d -p 8080:8080 imgtestdckr
+ 8741  docker ps
+ 8742  docker logs b411d160da2b
+ 8743  ls -aR
+ 8744  docker build -t imgtestdckr .
+ 8745  docker run -d -p 8080:8080 imgtestdckr
+ 8746  docker ps
+ 8747  docker stop b411d160da2b
+ 8748  docker ps
+ 8749  docker run -d -p 8080:8080 imgtestdckr
+ 8750  docker ps
+ 8751  docker logs strange_wilson
+ 8752  docker stop b411d160da2b
+ 8753  docker ps
+ 8754  docker stop 9e0c22ad2cce
+ 8755  docker ps
+ 8756  docker build -t imgtestdckr .
+ 8757  docker run -d -p 8080:8080 imgtestdckr
+ 8758  docker ps
+ 8759  bash
+ 8760  docker ps
+ 8761  docker stop 8bd4d461b0fd
+ 8762  docker rmi $(docker ps -aq)
+ 8763  docker system prune -a
+ 8764  docker build -t nginx .
+ 8765  docker run -it nginx -p 8080 bash
+ 8766  docker run -it nginx bash
+ 8767  history
+ 8768  docker run -it nginx bash
+ 8769  touch default.conf
+ 8770  docker ps
+ 8771  docker build -t nginx .
+ 8772  docker run -d -p 8080:8080 nginx
+ 8773  docker ps
+ 8774  docker stop d3e039f36fd2
+ 8775  docker run -d -p 8080:8080 nginx
+ 8776  docker stop abe17b0b9783
+ 8777  docker ps
+ 8778  docker run -d -p 8080:8080 nginx
+ 8779  docker ps
+ 8780  docker stop stoic_antonelli
+ 8781  docker ps
+ 8782  docker run -d -p 8080:8080 nginx
+ 8783  docker ps
+ 8784  docker logs 03fa80b716d6
+ 8785  docker stop stoic_antonelli
+ 8786  docker stop adoring_brown
+ 8787  docker ps
+ 8788  docker images
+ 8789  history
+ 8790  docker system prune -a
+ 8791  docker build -t dckdom .
+ 8792  docker run -d -p 8080:8080 dckdom
+ 8793  docker ps
+ 8794  docker logs infallible_wescoff
+ 8795  docker ps
+ 8796  docker logs infallible_wescoff
+ 8797  docker run -d -p 8080:8080 dckdom
+ 8798  docker images
+ 8799  docker build -t dckdom .
+ 8800  docker run -d -p 8080:8080 dckdom
+ 8801  docker ps
+
