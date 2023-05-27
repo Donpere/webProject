@@ -1,0 +1,30 @@
+
+body{
+	margin: 0px;
+}
+
+.girl{
+	height: 150px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.girl:first-child{
+	order: 4;
+}
+
+.girl:nth-child(2){
+	order: 4;
+}
+
+.main{
+	height: 600px;
+	background-color: bisque;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	/* flex-flow: ; permet de remplacer flex-direction: ; & flex-wrap:  */
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+}

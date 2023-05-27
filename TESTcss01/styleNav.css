@@ -1,0 +1,56 @@
+nav{
+	height: 50px;
+	list-style: none;
+	background-color: burlywood;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+li{
+	height: 50px;
+	width: 50vw;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	background-color: burlywood;
+}
+
+a{
+	padding: 10;
+	height: 50px;
+	width: 50vw;
+	font-family: Arial, Helvetica, sans-serif;
+	color: bisque;
+	font-weight: 900;
+	font-size: 4vw;
+	text-decoration: none;
+	text-align: center;
+}
+
+
+
+/*Ces styles ne sont là que pour la présentation*/
+
+.fl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gd{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    margin: 0px
+}
+.rel{
+    position: relative;
+}
+.rel p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
