@@ -1,0 +1,106 @@
+@font-face {
+
+	/* font-family: 'FontName';
+	src: url(FontLocationOnServer); */
+
+	font-family: 'Bellerose';
+	src: url(/src/font/Bellerose.ttf);
+
+	font-family: 'HabitaScenic';
+	src: url(/src/font/HabitaScenic_PERSONAL_USE_ONLY.otf);
+
+	font-family: 'Romantice';
+	src: url(/src/font/ROMANTICE.otf);
+
+	font-family: 'NovaQuinta';
+	src: url(/src/font/NovaQuinta_PERSONAL_USE_ONLY.otf);
+
+
+	}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	background-color: #ca8a04;
+	/* calc(100% du calque moins padding, 
+	soit 20px a gauche et 20px a droite = 40px*/
+	width: calc(100% - 40px);
+	height: 70px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 20px;
+/*copier depuis "beautiful box shadow" sur google*/
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.header_logo img{
+	max-height: 50px;
+}
+
+.header_nav{
+}
+
+.header_nav_menu{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+/*algnier en colonne les liens*/
+	display: flex;
+	align-items: center;
+}		
+
+.header_nav_menu_link{
+	margin-right: 20px;
+}
+
+.header_nav_menu_link:last-of-type{
+	/*pour ne pas appliquer les 12px a droite
+	et qu'il colle a la marge de droite*/
+	margin-right: initial;
+}
+
+.header_nav_menu_link a{
+	color:#facc15;
+	font-family: 'NovaQuinta';
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.header_nav_menu_link a:hover{
+	/* text-shadow: #fef08a 0 0 20px; */
+	text-shadow: 1px 1px 2px #713f12, 1px 1px 20px #fef08a, 0 0 0.2em #ca8a04;
+	color: #fef08a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1{
+	font-family: 'NovaQuinta';
+}
+
+h3{
+	font-family: 'Romantice';
+}

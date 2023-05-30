@@ -1,0 +1,114 @@
+@font-face {
+	font-family: 'Bourton';
+	src: url('/src/font/BourtonDropStripesB.ttf');
+
+	font-family: 'NovaQuinta';
+	src: url('/src/font/NovaQuinta_PERSONAL_USE_ONLY.otf');
+
+	font-family: 'TypoDraft';
+	src: url('/src/font/TypoDraftDemo.otf');
+
+	font-family: 'Brevard';
+	src: url('/src/font/BrevardDemoRegular.ttf');	
+}
+
+body 
+{
+	margin: 0;
+	padding: 0;
+}
+
+.pxToTop{
+	margin-top: 10vh;
+	padding: 0;
+}
+
+.pxSize{	
+	width: 100vw;
+	height: 12vh;
+	object-fit: cover;
+}
+
+.pxGrid{
+	width: 40vw;
+}
+
+.navBar{
+	height: 10vh;
+	width: 100vw;
+	position: fixed;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: aliceblue;
+	top: 0;
+	list-style: none;
+}
+
+
+a{
+	text-decoration: none;
+	font-size: 7vmin;
+}
+
+h1{
+	text-align: center;
+	font-family: 'Brevard';
+}
+
+p{
+	text-align: center;
+}
+
+.container {
+	margin-top: 0vmin;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: auto;
+	grid-template-areas:
+	"header header header header"
+	"main main text sidebar"
+	"footer footer footer footer";
+}
+
+.item-head {
+	grid-area: header;
+	/* border: solid 1px; */
+	padding: 4vmin;
+
+}
+
+.item-leftBar {
+	grid-area: main;
+	/* background-color: greenyellow; */
+	padding: 3vmin;
+	text-align: justify;
+}
+
+.item-text {
+	grid-area: text;
+	background-color: pink;
+	padding: 3vmin;
+	text-align: justify;
+
+}
+
+  .item-rightBar {
+	grid-area: sidebar;
+	/* background-color: yellow; */
+	padding: 3vmin;
+	text-align: justify;
+
+}
+
+  .item-foot{
+	grid-area: footer;
+	background-color: violet;
+	padding: 2vmin;
+
+}
+  
+
+.colo1{
+	background-color: aqua;
+}
