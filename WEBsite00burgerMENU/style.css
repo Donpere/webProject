@@ -77,22 +77,10 @@ body{
 	/* text-shadow: #fef08a 0 0 20px; */
 	text-shadow: 1px 1px 2px #713f12, 1px 1px 20px #fef08a, 0 0 0.2em #ca8a04;
 	color: #fef08a;
+	font-size: large;
+	transition: 0.4s all ease-in-out;
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -103,4 +91,14 @@ h1{
 
 h3{
 	font-family: 'Romantice';
+}
+
+.header_burger img{
+	max-height: 50px;
+}
+
+@media screen and (max-width: 350px) {
+	.header_nav {
+		display:none;
+	}
 }
