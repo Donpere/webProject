@@ -17,7 +17,7 @@ html, body, p, h{
 }
 
 body{
-	background-color: #e5ffeaff;
+	background: linear-gradient(180deg, #8360c3, #2ebf91);
 }
 
 h1{
@@ -35,4 +35,31 @@ p{
 	margin: 2vh 3vw 2vh 3vw;
 	text-indent: 5vw;
 
+}
+
+.button{
+	display: flex;
+	justify-content: center;
+	padding: 10vh;
+	align-items: center;
+}
+
+.button_inside{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 200px;
+	background: linear-gradient(180deg, #8360c3, #2ebf91);
+	border: 2px solid pink;
+	border-radius: 69% 10% 63% 10% / 63% 10% 43% 10%;
+	box-shadow: 3px 3px 10px black;
+}
+
+.button_inside a{
+	text-decoration: none;
+	text-align: center;
+	color: pink;
+	font-size: 2em;
+	font-weight: 700;
 }
