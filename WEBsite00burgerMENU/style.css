@@ -4,16 +4,16 @@
 	src: url(FontLocationOnServer); */
 
 	font-family: 'Bellerose';
-	src: url(/src/font/Bellerose.ttf);
+	src: url(src/font/Bellerose.ttf);
 
 	font-family: 'HabitaScenic';
-	src: url(/src/font/HabitaScenic_PERSONAL_USE_ONLY.otf);
+	src: url(src/font/HabitaScenic_PERSONAL_USE_ONLY.otf);
 
 	font-family: 'Romantice';
-	src: url(/src/font/ROMANTICE.otf);
+	src: url(src/font/ROMANTICE.otf);
 
 	font-family: 'NovaQuinta';
-	src: url(/src/font/NovaQuinta_PERSONAL_USE_ONLY.otf);
+	src: url(src/font/NovaQuinta_PERSONAL_USE_ONLY.otf);
 
 
 	}
@@ -44,8 +44,8 @@ body{
 	max-height: 50px;
 }
 
-.header_nav{
-}
+/* .header_nav{
+} */
 
 .header_nav_menu{
 	margin: 0;
@@ -94,11 +94,17 @@ h3{
 }
 
 .header_burger img{
-	max-height: 50px;
+	max-height: 35px;
 }
 
 @media screen and (max-width: 350px) {
 	.header_nav {
+		display:none;
+	}
+}
+
+@media screen and (min-width: 350px) {
+	.header_burger {
 		display:none;
 	}
 }

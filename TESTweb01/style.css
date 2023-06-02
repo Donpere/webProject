@@ -1,0 +1,38 @@
+/* CSS HEX 
+--coral: #ff764aff;
+--peach: #ffbb9aff;
+--honeydew: #e5ffeaff;
+--tiffany-blue: #8ae1e0ff;
+--robin-egg-blue: #14c2d6ff;
+*/
+
+html, body, p, h{
+	margin: 0;
+	padding: 0;
+}
+
+.baseLink a{
+	text-decoration: none;
+	color: #14c2d6ff;
+}
+
+body{
+	background-color: #e5ffeaff;
+}
+
+h1{
+	color: #ff764aff;
+	font-family: 'Lobster', cursive;
+	font-size: 2em;
+	margin: 0 2vw 0 2vw;
+}
+
+p{
+	color: #ffbb9aff;
+	font-family: 'Caveat', cursive;
+	font-size: 2em;
+	text-align: justify;
+	margin: 2vh 3vw 2vh 3vw;
+	text-indent: 5vw;
+
+}
